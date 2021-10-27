@@ -1,4 +1,7 @@
 # Plaque-Robotique-Test
-Droïde
+Droïde 5865 - 2018 - Plaque robotique test
 
+
+# Schema plaque robotique 
+![Schema plaque robotique](https://i.imgur.com/xRqF7ti.png) **
 
