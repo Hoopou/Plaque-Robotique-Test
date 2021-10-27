@@ -1,4 +1,4 @@
-package org.usfirst.frc.team9999.robot.subsystems;
+package org.usfirst.frc.team5865.robot.subsystems;
 
 
 
@@ -20,7 +20,9 @@ public class DoubleSolenoidSubsystem extends Subsystem {
 		solenoid = new DoubleSolenoid(0, 3); 
 	}
 
-	public void initDefaultCommand() {}
+	public void initDefaultCommand() {
+		
+	}
 	
 	
 	public void extend() {

@@ -1,12 +1,13 @@
-package org.usfirst.frc.team9999.robot;
+package org.usfirst.frc.team5865.robot;
 
 import edu.wpi.first.wpilibj.buttons.Button;
 
-import org.usfirst.frc.team9999.robot.commands.CANTalon1Command;
-import org.usfirst.frc.team9999.robot.commands.CANTalon2Command;
-import org.usfirst.frc.team9999.robot.commands.DoubleSolenoidCommand;
-import org.usfirst.frc.team9999.robot.commands.Servo1Command;
-import org.usfirst.frc.team9999.robot.commands.Servo2Command;
+import org.usfirst.frc.team5865.robot.commands.CANTalon1Command;
+import org.usfirst.frc.team5865.robot.commands.CANTalon2Command;
+import org.usfirst.frc.team5865.robot.commands.DoubleSolenoidCommand;
+import org.usfirst.frc.team5865.robot.commands.Servo1Command;
+import org.usfirst.frc.team5865.robot.commands.Servo2Command;
+import org.usfirst.frc.team9999.robot.XboxControllerUD;
 
 /**
  * This class is the glue that binds the controls on the physical operator

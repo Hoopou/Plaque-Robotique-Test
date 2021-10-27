@@ -1,18 +1,18 @@
-package org.usfirst.frc.team9999.robot.commands;
+package org.usfirst.frc.team5865.robot.commands;
 
-import org.usfirst.frc.team9999.robot.Robot;
+import org.usfirst.frc.team5865.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class Servo1Command extends Command {
+public class Servo2Command extends Command {
 	public static int mode = 1;
 	
-	public Servo1Command() {
+	public Servo2Command() {
 		// Use requires() here to declare subsystem dependencies
-		requires(Robot.Servo1);
+		requires(Robot.Servo2);
 	}
 
 	// Called just before this Command runs the first time
@@ -26,10 +26,10 @@ public class Servo1Command extends Command {
 	protected void execute() {
 		switch(mode){
 		case 0:
-			Robot.Servo1.retract();
+			Robot.Servo2.retract();
 			break;
 		case 1:
-			Robot.Servo1.extend();
+			Robot.Servo2.extend();
 			break;
 		}
 	}
@@ -43,7 +43,7 @@ public class Servo1Command extends Command {
 	// Called once after isFinished returns true
 	@Override
 	protected void end() {
-		Robot.Servo1.retract();
+		Robot.Servo2.retract();
 	}
 
 	// Called when another command which requires one or more of the same

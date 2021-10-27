@@ -1,18 +1,18 @@
-package org.usfirst.frc.team9999.robot.commands;
+package org.usfirst.frc.team5865.robot.commands;
 
-import org.usfirst.frc.team9999.robot.Robot;
+import org.usfirst.frc.team5865.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class CANTalon2Command extends Command {
+public class DoubleSolenoidCommand extends Command {
 	public static int mode = 1;
 	
-	public CANTalon2Command() {
+	public DoubleSolenoidCommand() {
 		// Use requires() here to declare subsystem dependencies
-		requires(Robot.CAN2Subsystem);
+		requires(Robot.Solenoid);
 	}
 
 	// Called just before this Command runs the first time
@@ -26,10 +26,10 @@ public class CANTalon2Command extends Command {
 	protected void execute() {
 		switch(mode){
 		case 0:
-			Robot.CAN2Subsystem.arreter();
+			Robot.Solenoid.retract();
 			break;
 		case 1:
-			Robot.CAN2Subsystem.Commancer();
+			Robot.Solenoid.extend();
 			break;
 		}
 	}
@@ -43,7 +43,7 @@ public class CANTalon2Command extends Command {
 	// Called once after isFinished returns true
 	@Override
 	protected void end() {
-		Robot.CAN2Subsystem.arreter();
+		Robot.Solenoid.retract();
 	}
 
 	// Called when another command which requires one or more of the same

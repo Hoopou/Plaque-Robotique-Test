@@ -1,4 +1,11 @@
-package org.usfirst.frc.team9999.robot;
+package org.usfirst.frc.team5865.robot;
+
+import org.usfirst.frc.team9999.robot.DPAD;
+import org.usfirst.frc.team9999.robot.DPadButton;
+import org.usfirst.frc.team9999.robot.DirectionalPad;
+import org.usfirst.frc.team9999.robot.HAND;
+import org.usfirst.frc.team9999.robot.Thumbstick;
+import org.usfirst.frc.team9999.robot.Trigger;
 
 /* Imports */
 import edu.wpi.first.wpilibj.Joystick;

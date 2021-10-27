@@ -1,5 +1,5 @@
 
-package org.usfirst.frc.team9999.robot;
+package org.usfirst.frc.team5865.robot;
 
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.IterativeRobot;
@@ -9,12 +9,13 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-import org.usfirst.frc.team9999.robot.commands.CANTalon1Command;
-import org.usfirst.frc.team9999.robot.subsystems.CANTalon1Subsystem;
-import org.usfirst.frc.team9999.robot.subsystems.CANTalon2Subsystem;
-import org.usfirst.frc.team9999.robot.subsystems.DoubleSolenoidSubsystem;
-import org.usfirst.frc.team9999.robot.subsystems.Servo1Subsystem;
-import org.usfirst.frc.team9999.robot.subsystems.Servo2Subsystem;
+import org.usfirst.frc.team5865.robot.commands.CANTalon1Command;
+import org.usfirst.frc.team5865.robot.subsystems.CANTalon1Subsystem;
+import org.usfirst.frc.team5865.robot.subsystems.CANTalon2Subsystem;
+import org.usfirst.frc.team5865.robot.subsystems.DoubleSolenoidSubsystem;
+import org.usfirst.frc.team5865.robot.subsystems.Servo1Subsystem;
+import org.usfirst.frc.team5865.robot.subsystems.Servo2Subsystem;
+import org.usfirst.frc.team9999.robot.OI;
 
 /**
  * The VM is configured to automatically run this class, and to call the
