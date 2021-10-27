@@ -1,5 +1,5 @@
 # Plaque-Robotique-Test
-Droïde 5865 - 2018 - Plaque robotique test
+Droïde 5865 - 2018 - Plaque robotique test en Java
 
 
 # Schema plaque robotique 
